@@ -25,6 +25,9 @@ const MovieDetails = () => {
 
     const {data: movie, loading} = useFetch(() => fetchMovieDetails(id as string));
     // @ts-ignore
+    // @ts-ignore
+    // @ts-ignore
+    // @ts-ignore
     return (
         <View className='bg-primary flex-1'>
             <ScrollView contentContainerStyle={{paddingBottom: 80}}>
